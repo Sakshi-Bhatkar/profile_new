@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="./Style.css">
+</head>
+<body>
+    <header>
+        <div class="user">
+           <img src="./images/picture.jpg" alt="">
+           <h3 class="name">Sakshi Bhatkar</h3>
+           <p class="post">Software Developer</p>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home"> Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#education">Education & Work Experience</a></li>
+                <li><a href="#contact">Contact me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="menu" class="fas fas-bars"></div>
+
+    <section class="home" id="home">
+          <h3>HI THERE !</h3>
+          <h1>I'M <span>Sakshi Bhatkar</span></h1>
+          <p>Software Developer</p>
+          <a href="#about"><button class="btn">about me <i class="fas fa-user"></i></button></a>
+    </section>
+
+    <section class="about" id="about">
+        <h1 class="heading"> <span>About</span> Me </h1>
+        <div class="row">
+            <div class="info">
+                <h3><span>Name:</span> Sakshi Bhatkar</h3>
+                <h3><span>Qualification:</span>B.E. (Computer Science and Engineering)</h3>
+                <h3><span>Working At:</span>Infocore</h3>
+                <h3><span>Working Experience</span>From:Aug-2021-till date</h3>
+                <a href="./SakshiBhatkarResume.pdf"><button class="btn">Download CV<i class="fas fa-download"></i></button></a>
+            </div>
+             
+            <div class="counter">
+                <div class="box">
+                    <span><i class="fa-brands fa-html5"></i> & <i class="fa-brands fa-css3"></i></span>
+                </div>
+                <div class="box">
+                    <span><i class="fa-brands fa-java"></i></span> 
+                </div>
+                <div class="box">
+                    <span><i class="fa-brands fa-js"></i> & <i class="fa-brands fa-bootstrap"></i></span>
+                </div>
+                <div class="box">
+                    <span><i class="fa-brands fa-python"></i></span>
+                </div>
+            </div> 
+        </div>
+    </section>
+    <section class="education" id="education">
+        <h1 class="heading">Education<span> & </span>Work Experience</h1>
+            <div class="box-container">
+                <div class="box">
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <span>2021</span>
+                    <h3>Software Development</h3>
+                    <p>At Infocore,Pune ,<br> From:Aug 2021-till date</p>        
+                </div>
+                <div class="box">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>2018</span>
+                    <h3>Graduation</h3>
+                    <p>Bachlores in Engineering in Computer Science,Amravati,Maharashtra, Form:2018-2021</p>        
+                </div>
+                <div class="box">
+                    <i class="fa-solid fa-school"></i>
+                    <span>2015</span>
+                    <h3>HSC</h3>
+                    <p> Completed 12th from Sant Gadge Maharaj jr clg, Murtizapur,Maharashtra, from:2015-2018</p>
+                </div>
+            </div>
+    </section>
+    <section class="contact" id="contact">
+        <h1 class="heading"><span>Contact</span> Me</h1>
+            <div class="row">
+                <div class="content">
+                    <h3 class="title">Contact Info:</h3>
+                    <div class="info">
+                        <h3><i class="fas fa-envelope"></i> Sakshibhatkar88@gmail.com</h3>
+                        <h3><i class="fas fa-phone"></i> 9075570316</h3>
+                        <h3><i class="fas fa-phone"></i> 9325386482</h3>
+                        <h3><i class="fas fa-map-marker-alt"></i>Amravati,Maharashtra-444603</h3>
+                    </div>
+                </div>
+                <form action="">
+                    <input type="text" placeholder="Name" class="box">
+                    <input type="email" placeholder="email" class="box">
+                    <input type="text" placeholder="Project" class="box">
+                    <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="Message"></textarea>
+                    <button type="Submit" class="btn">Send <i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+    </section>
+
+    <a href="#home" class="top">
+        <img src="" alt="">
+    </a>
+    <script src="./script.js"></script>
+</body>
+</html>
